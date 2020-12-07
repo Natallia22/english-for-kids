@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>English kids</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__burgerMenu">
+        </div>
+        <div class="header__menu">
+            <ul class="menu__list">
+                <li class="menu_element menu_element_active" id="Main Page">Main Page</li>
+                <li class="menu_element" id="Action (set A)">Action (set A)</li>
+                <li class="menu_element" id="Action (set B)">Action (set B)</li>
+                <li class="menu_element" id="Animal (set A)">Animal (set A)</li>
+                <li class="menu_element" id="Animal (set B)">Animal (set B)</li>
+                <li class="menu_element" id="Clothes">Clothes</li>
+                <li class="menu_element" id="Emotions">Emotions</li>
+                <li class="menu_element" id="Professions">Professions</li>
+                <li class="menu_element" id="Colors">Colors</li>
+                <li class="menu_element" id="statistics">statistics</li>
+            </ul>
+        </div>
+        <p class="header__mod">TRAIN</p>
+        <div class="header__switch">
+            <div class="switch__circle"></div>
+        </div>
+    </header>
+        <div class="conteiner__stars" style="display: none;">
+        </div>
+        <div class="container main_container" id="main_page">
+            <div class="categories__cards">
+            </div>
+            <div class="errors" style="display: none;"></div>
+            <img class="imgfinish" src="img/other/success.jpg" style="display: none;" id="win" alt="">
+            <img class="imgfinish" src="img/other/failure.jpg" style="display: none;" id="fail" alt="">
+        </div>
+    <footer>
+        <button class="button button__play">Start game</button>
+        <button class="button__repeat" style="display: none;"><img src="img/other/repeat.svg" alt="" width="32"></button>
+        <button class="button button_stats button_repdif" style="display: none;">Repeat difficult words</button>
+        <button class="button button_stats button_reset" style="display: none;">Reset</button>
+    </footer>
+    <script type="module" src="index.js"></script>
+    <script src="./js/cards.js"></script>
+    <script src="./js/cardlist.js"></script>
+</body>
+</html>
